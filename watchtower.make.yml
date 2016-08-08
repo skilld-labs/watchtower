@@ -1,0 +1,30 @@
+api: 2
+
+core: "7.x"
+
+projects:
+  drupal:
+    type: "core"
+  entityreference:
+    subdir: "contrib"
+    type: "module"
+  diff:
+    subdir: "contrib"
+    type: "module"
+  features:
+    subdir: "contrib"
+    type: "module"
+  strongarm:
+    subdir: "contrib"
+    type: "module"
+  ctools:
+    subdir: "contrib"
+    type: "module"
+  entity:
+    subdir: "contrib"
+    type: "module"
+  watchtower:
+    subdir: "custom"
+    download:
+      type: "file"
+      url: "https://github.com/drupal-watchtower/sandbox/archive/7.x-1.x.zip"
